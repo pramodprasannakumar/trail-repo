@@ -1,0 +1,12 @@
+#give a names in the list and disply index of it
+
+def print_all_indices(names_list):
+    # Iterate over the list with enumerate to get both index and name
+    for index, name in enumerate(names_list):
+        print(f"The index of '{name}' is: {index}")
+
+# List of names
+names = ["Alice", "Bob", "Charlie", "David", "Eve"]
+
+# Call the function to print all names with their indices
+print_all_indices(names)
